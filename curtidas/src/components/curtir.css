@@ -1,0 +1,12 @@
+div{
+    background-color: rgb(64, 63, 63);
+    border-radius: 10px;
+}
+
+.vermelho{
+    background-color: red;
+    color: white;
+}
+.escuro{
+    background-color: blue;
+}
