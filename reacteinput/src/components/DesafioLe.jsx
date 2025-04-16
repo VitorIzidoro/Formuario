@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./Bonitinho.css";
 
 function Feedback(){
     const [texto, setTexto] = useState('')
@@ -15,9 +16,9 @@ function Feedback(){
 
 
     return(
-        <div>
+        <div className="box">
             <h3>Escreva seu Comentário: </h3>
-            <textarea
+            <textarea className="input"
             value={texto}
             onChange={(e) => setTexto(e.target.value)}
             placeholder="Digite o seu Feedback aqui..."
@@ -25,7 +26,7 @@ function Feedback(){
            
 
             <div>
-        <select value={number} onChange={(evento) => setNumber(evento.target.value)}>
+        <select className="input" value={number} onChange={(evento) => setNumber(evento.target.value)}>
             <option value="">Selecione uma nota</option>
             <option>1</option>
             <option>2</option>

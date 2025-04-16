@@ -5,7 +5,12 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-image: url("../src/assets/kawaii.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #fcf8e8;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;

@@ -1,0 +1,63 @@
+.box {
+    background-color: rgba(223, 223, 223, 0.7);
+    box-shadow: 1px 1px 10px black;
+    color: black;
+    border-radius: 10px;
+
+    input{
+        background-color: rgb(243, 243, 243);
+    }
+
+    label{
+        margin: 1em;
+    }
+
+    button{
+        background-color: blue;
+        margin: 1em;
+        border: black;
+        transition: 0.5s;
+}
+
+    button:hover{
+        background-color: rgb(185, 185, 185);
+        color: white;
+        transition: 0.5s;
+        transform: scale(1.1);
+    }
+    .input{
+        background-color: rgb(255, 255, 255);
+        color: black;
+        border-radius: 10px;
+        padding: 0.5em;
+        border: none;
+        outline: none;
+        margin: 1em; 
+        box-shadow: 1px 1px 10px black;
+        transition: 0.3s;
+        
+    }
+
+    input:hover{
+        background-color: rgb(222, 220, 220);
+        color: black;
+        transition: 0.5s;
+    }
+
+}
+
+.box.true{
+    background-color: rgb(128, 126, 126);
+}
+.box.false{
+    background-color: rgba(223, 223, 223, 0.7)
+}
+
+select{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 10px;
+    margin: 1em; 
+    box-shadow: 1px 1px 10px black;
+    transition: 0.3s;
+}
